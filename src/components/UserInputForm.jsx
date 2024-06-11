@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./styleForm.css";
-const FormBody = ({
+const UserInputForm= ({
   user,
   setUser1,
   formData,
@@ -84,4 +84,4 @@ const FormBody = ({
     </div>
   );
 };
-export default FormBody;
+export default UserInputForm;

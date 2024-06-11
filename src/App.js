@@ -1,10 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header';
-import FormBody from './components/UserFormBody';
-import DisplayUserForm from './components/DisplayUserForm';
-import DeleteUser from './components/DeleteUser';
+import FormBody from './components/UserInputForm';
+import UsersRecord from './components/UsersRecord';
 import { useState } from 'react';
+import UserInputForm from './components/UserInputForm';
 function App() {
   const [formData, setFormData] = useState([]);
 
@@ -24,8 +24,8 @@ function App() {
     <div>
      <Header title="User Details"/>
      
-     <FormBody user= {user} setUser1={setUser}  formData={formData} setFormData={setFormData} index={index} setIndex={setIndex}/>
-     <DisplayUserForm  setUser={setUser} formData={formData } setFormData={setFormData} index={index} setIndex={setIndex}/>
+     <UserInputForm user= {user} setUser1={setUser}  formData={formData} setFormData={setFormData} index={index} setIndex={setIndex}/>
+     <UsersRecord  setUser={setUser} formData={formData } setFormData={setFormData} index={index} setIndex={setIndex}/>
     </div>
   );
 }

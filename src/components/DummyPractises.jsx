@@ -1,5 +1,5 @@
 /*import React from 'react';
-const DeleteUser = ({ formData, setFormData, ind }) => {
+const DummyPractises = ({ formData, setFormData, ind }) => {
 
     return (
         <div>

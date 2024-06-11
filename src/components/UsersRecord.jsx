@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import "./stylelist.css";
-const DisplayUserForm = ({ setUser, formData, setFormData , index, setIndex}) => {
+import "./styleList.css";
+const UsersRecord = ({ setUser, formData, setFormData , index, setIndex}) => {
     const [updatingIndex, setUpdatingIndex] = useState(-1);
 
     // const [user, setUser] = useState(
@@ -49,4 +49,4 @@ const DisplayUserForm = ({ setUser, formData, setFormData , index, setIndex}) =>
         </div>
     );
 }
-export default DisplayUserForm;
+export default UsersRecord;
